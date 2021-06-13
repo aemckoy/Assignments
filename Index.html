@@ -1,21 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Here We have a header</title>
-</head>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <body>
-    <h1>Here we have a header</h1>
-    <h2>After this we have some good ol' lorem ipsum</h2>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-    <br />
-    <h3>Make sure you include some varying tags in your practice.  It'll be good to see how different elements interact with each other.</h3>
-    <br />
-    <h2>Look! A Computer!</h2>
-    <img src=https://images.unsplash.com/photo-1551739440-5dd934d3a94a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80
-    <br />
-    <p>And then this is a link to the source of the image</p>
+    <header id="header">
+    <div class="logo">
+      <br>
+      <h1> Welcome to This Fake Assigment </h1>
+      <h3>Company Moto</h3>
+    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21pbGluZyUyMGZhY2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+        alt="Happy & Healthy"
+    width="300" height="300">
+
+<hr />
+    </div>
+   <nav id="nav-bar">
+     <a class="nav-link"
+        href="#form-paragraph">Our Mission</a>
+       <a class="nav-link"
+              href="#products">Our Products</a>
+       <a class="nav-link"
+               href="#careers">Our Team</a>
+       </nav>      
+  </header>
+ 
+  <div class="container">
+     <section id="form-paragraph"> 
+       <br>
+       <br>
+  <h3> Our Mission </h3>
+ <p> Good overall wellbeing is vital for survival. Together, we can grow, and save more of our peers. </p> 
+     <p> Your company can be a part of the solution! Join our community by sharing your email address below.</p>
+   <form id="form" action="https://www.freecodecamp.com/email-submit">
+       <input 
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Share email address here"
+          required  
+        />
+    <input id="submit" type="submit" value="submit" class="btn" />
+  </form>
+  </section>
+    <br>
+  <section id="products">
+ <br>
+    <br>
+    <h3> Our Products </h3>
+    <p> We specialize in corporate wellbeing. </p>
+    <br> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/c6pH1iD9AWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    </section>
+    
+    <section id="careers"> 
+      <br>
+      <br>
+      <h3> Our Team </h3> 
+      <p> Looking to join the team? Submit your resume below and we will be in touch! </p> 
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+    </section>
+  </div>
+  <br>
+  <footer id="footer"> Thank you for checking us out! </footer>
+
 </body>
-</html>
